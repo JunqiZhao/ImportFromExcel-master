@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void printDataToLog() {
-        Log.d(TAG, "printDataToLog: Printing data to log...");
+        Log.d(TAG, "printDataToLog: Cheeking the uploaded data");
 
         for(int i = 0; i< uploadData.size(); i++){
             double x = uploadData.get(i).getX();
